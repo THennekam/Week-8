@@ -1,0 +1,57 @@
+html, body { height: 100%; width: 100%}
+
+
+
+
+
+
+body{
+
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  height: 100%; width: 100%
+
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 227px 229px 225px 300px ;
+  grid-template-rows: 121px 163px 340px 342px;
+  grid-gap: 10px;
+}
+
+.banner{
+  grid-column-start: 1; 
+  grid-column-end: 3;
+}
+
+.commando{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 3;
+}
+
+.max{
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.netbinnen{
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.griepvaccin{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.zon{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.schandaal{
+  grid-column: 3;
+  grid-row: 4;
+}
